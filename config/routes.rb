@@ -1,4 +1,6 @@
 SampleApp::Application.routes.draw do
+  get "blog/index"
+  root :to => "blog#index"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

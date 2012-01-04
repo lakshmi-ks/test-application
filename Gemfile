@@ -18,6 +18,8 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'postgres-pr'
+gem 'mysql'
 
 # Use unicorn as the web server
 # gem 'unicorn'
@@ -27,4 +29,3 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'ruby-debug'
-
